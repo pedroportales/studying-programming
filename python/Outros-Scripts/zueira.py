@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 '''
 Criando um diálogo bugadasso entre dois personagens
 1. Renan
