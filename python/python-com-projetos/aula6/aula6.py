@@ -13,3 +13,9 @@ print('Idade:', idade)
 print('Altura:', altura)
 print('É maior:', e_maior)
 print(nome, 'tem', idade, 'anos de idade e seu imc é', imc)
+
+
+
+print("""Só pro Redsuh entender
+ENTENDA REDSUH!!!
+VAMOS LÀÀÀÀ""")
