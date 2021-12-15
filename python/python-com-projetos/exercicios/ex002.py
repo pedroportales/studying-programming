@@ -10,13 +10,15 @@ try:
     time = int(time)
 
     if time < 0 or time > 23:
+        print("Digite um horário entre 0 e 23!")
+        
+    else:
         if time >= 0 and time <= 11:
             print("Bom dia!")
         elif time >= 12 and time <= 17:
             print("Boa tarde!")
         elif time >= 18 and time <= 23:
             print("Boa noite!")
-    else:
-        print("Digite um horário entre 0 e 23!")
+            
 except:
     print("Digite um horário no formato pedido!")
