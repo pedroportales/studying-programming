@@ -1,0 +1,6 @@
+horas = int(input())
+minutos = int(input())
+
+total = horas * 60 + minutos
+
+print(f"Se passaram {total} minutos.")
