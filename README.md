@@ -1,2 +1,2 @@
-# studying-programming
-Hi, this is my studying repo
+# Studying Programming
+Hi, this is my studying programming repo
