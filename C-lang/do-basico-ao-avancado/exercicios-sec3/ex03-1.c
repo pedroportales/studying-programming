@@ -3,10 +3,10 @@
 int main() {
   int i;
   int num;
-  int soma;
+  int soma = 0;
 
-  for(i = 0; i >= 3; i++) {
-    printf("Digite o %dº número inteiro", i);
+  for(i = 1; i <= 3; i++) {
+    printf("Digite o %dº número inteiro: ", i);
     scanf("%d", &num);
     soma = soma + num;
     
