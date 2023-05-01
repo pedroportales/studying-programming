@@ -36,7 +36,7 @@ elif base == 2:
         num = num1 // 8
         resto = num1 - num * 8
         lista.insert(0, resto)
-    b.insert(0, num)
+    lista.insert(0, num)
     print(*lista, sep='')
 
 elif base == 3:
@@ -48,4 +48,4 @@ elif base == 3:
         resto = num1 - num * 16
         lista.insert(0, resto)
     lista.insert(0, num)
-    print(''.join('{0:X}'.format(i) for i in lista))    
+    print(''.join('{0:x}'.format(i) for i in lista))    
