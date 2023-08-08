@@ -3,7 +3,7 @@
 int main(){
     int i;
 
-    printf("Insira um número inteiro de 1 a 5");
+    printf("Insira um número inteiro de 1 a 5: ");
     scanf("%i", &i);
 
     switch (i) {
