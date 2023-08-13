@@ -7,7 +7,7 @@ int main(){
     int resposta;
 
     num1 < num2 ? printf("Sim\n") : printf("Não\n");
-    num1 < num2 ? resposta = 10 : resposta = 10
+    num1 < num2 ? resposta = 10 : resposta = 10;
 
     printf("%i\n", resposta);
 
