@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
+/* Elabore um programa em C que leia o ano de nascimento de 20 pessoas e 
+diga se é maior de idade ou menor de idade */
+
 int main(){
 
     int i, anoAtual, anoNasc, idade;
