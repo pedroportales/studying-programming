@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Elabore um algoritmo que calcule a média de 2 notas de 10 alunos */
+
 int main(){
     int i;
     float nota1, nota2;

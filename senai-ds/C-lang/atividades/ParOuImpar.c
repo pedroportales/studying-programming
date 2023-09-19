@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* Elabore um algoritmo que leia 20 números e verifique se é par
+ou ímpar */
+
 int main(){
     int i, num;
 
