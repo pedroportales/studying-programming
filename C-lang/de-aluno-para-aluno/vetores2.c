@@ -6,9 +6,9 @@ int main(void){
     int i;
     //vetor[0] = 1;
 
-    int vetor[5] = {0,1,2,3,4};
+    int vetor[5] = {0,1,2,3,4}; // Atribuição por posição
 
-    for(i = 0; i <5; i++){
+    for(i = 0; i < 5; i++){
         printf("%d\n", vetor[i]);
     }
     
