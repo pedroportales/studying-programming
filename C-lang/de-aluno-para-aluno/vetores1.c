@@ -9,9 +9,8 @@ int main(void){
     nota[2] = 3;
     nota[3] = 4;
     nota[4] = 5;
-    nota[5] = 6;
 
-    printf("%d\n", nota[5]);
+    printf("%d\n", nota[4]);
 
     return 0;
 }
