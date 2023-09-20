@@ -14,7 +14,7 @@ int main(void){
     int maisDe5 = 0, menosDe5 = 0;
     int totalIdade = 0, totalLivros = 0;
 
-    for(int i = 0; i < 10; i++){
+    for(int i = 0; i < 100; i++){
         printf("Digite a idade da %dª pessoa: ", i+1);
         scanf("%d", &idade);
         printf("Digite a quantidade de livros lidos pela %dª pessoa em 2016: ", i+1);
@@ -33,7 +33,7 @@ int main(void){
 
     printf("A quantidade de pessoas que leram 5 livros ou mais: %d\n", maisDe5);
     printf("A média de idade das pessoas que leram menos que 5 livros: %.2f\n", totalIdade / menosDe5);
-   printf(" A quantidade total de livros lidos pelos entrevistados menores de 10 anos: %d\n", totalLivros);
+    printf(" A quantidade total de livros lidos pelos entrevistados menores de 10 anos: %d\n", totalLivros);
 
 
     return 0;
