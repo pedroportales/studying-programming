@@ -2,13 +2,13 @@
 
 int main(void){
 
-    //int vetor[5];
-    int i;
-    //vetor[0] = 1;
+    int vetor[5];
+    
+    vetor[0] = 1; // Atribuindo um único valor em uma posição específica
 
-    int vetor[5] = {0,1,2,3,4}; // Atribuição por posição
+    int vetor[5] = {0,1,2,3,4}; // Atribuindo os valores nas respectivas posições
 
-    for(i = 0; i < 5; i++){
+    for(int i = 0; i < 5; i++){
         printf("%d\n", vetor[i]);
     }
     
