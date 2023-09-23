@@ -210,6 +210,7 @@ int main(void){
                 break;
             case 8:
                 printf("Fechando programa...\n");
+                break;
             default:
                 printf("Valor inválido. Tente novamente\n\n");
         }
