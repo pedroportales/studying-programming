@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*
+Autor: Pedro Portales
+*/
 
 void notaDe10Alunos(){
     /* Elabore um algoritmo que calcule a média de 2 notas de 10 alunos */
