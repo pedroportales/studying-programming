@@ -15,7 +15,7 @@ int main(){
 
     anoAtual = (data->tm_year+1900);
 
-    for(i = 0; i < 75; i++){
+    for(i = 0; i < 20; i++){
         printf("Digite o ano de nascimento da %dª pessoa: ", i+1);
         scanf("%d", &anoNasc);
 
